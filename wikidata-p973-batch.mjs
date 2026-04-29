@@ -43,7 +43,7 @@
 //   • Read-side probe uses batched wbgetentities (50 IDs per call) so 50
 //     candidates = 1 read + N writes.
 //
-// Operator: Solis Prints (sysop@solisprints.co.uk)
+// Operator: Solis Prints (wikidata@solisprints.co.uk)
 // Source code: https://github.com/mikeonabike25/solisprints-wikidata-bot
 // Licence: MIT
 
@@ -72,7 +72,7 @@ const LIMIT = limitIdx >= 0 ? parseInt(args[limitIdx + 1] || '50', 10) : 50;
 const candidatesIdx = args.indexOf('--candidates');
 const CANDIDATES_FILE = candidatesIdx >= 0 ? args[candidatesIdx + 1] : 'candidates.json';
 const SOLIS_DOMAIN = 'solisprints.co.uk';
-const USER_AGENT = `SolisPrintsWikidataBot/1.0 (https://www.${SOLIS_DOMAIN}; sysop@${SOLIS_DOMAIN})`;
+const USER_AGENT = `SolisPrintsWikidataBot/1.0 (https://www.${SOLIS_DOMAIN}; wikidata@${SOLIS_DOMAIN})`;
 const SLEEP_BETWEEN_EDITS_MS = 4000; // bot policy floor
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

@@ -15,7 +15,7 @@
     "dotenv": "^17.0.0"
   },
   "license": "MIT",
-  "author": "Solis Prints <sysop@solisprints.co.uk>",
+  "author": "Solis Prints <wikidata@solisprints.co.uk>",
   "repository": {
     "type": "git",
     "url": "https://github.com/mikeonabike25/solisprints-wikidata-bot"

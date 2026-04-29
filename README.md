@@ -112,7 +112,7 @@ For first deployment with a fresh consumer/account:
 ## Operator
 
 - **Site**: https://www.solisprints.co.uk
-- **Contact**: sysop@solisprints.co.uk
+- **Contact**: wikidata@solisprints.co.uk
 - **Source code**: this repository
 - **Licence**: MIT (see LICENSE)
 
