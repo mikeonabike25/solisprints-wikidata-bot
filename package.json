@@ -1,0 +1,30 @@
+{
+  "name": "solisprints-wikidata-bot",
+  "version": "1.0.0",
+  "description": "Adds Property:P973 (described at URL) statements to Wikidata art-historical entities, linking to sourced editorial pages on solisprints.co.uk",
+  "main": "wikidata-p973-batch.mjs",
+  "type": "module",
+  "scripts": {
+    "dry-run": "node wikidata-p973-batch.mjs",
+    "apply": "node wikidata-p973-batch.mjs --apply"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0"
+  },
+  "license": "MIT",
+  "author": "Solis Prints <sysop@solisprints.co.uk>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeonabike25/solisprints-wikidata-bot"
+  },
+  "keywords": [
+    "wikidata",
+    "wikidata-bot",
+    "p973",
+    "described-at-url",
+    "art-history"
+  ]
+}
